@@ -1,0 +1,1 @@
+bucket_name = "candor-food-test-site-706922781387"

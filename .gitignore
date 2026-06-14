@@ -1,0 +1,66 @@
+# ======================
+# Terraform
+# ======================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Optional (keep if you want reproducible provider versions)
+#!.terraform.lock.hcl
+
+
+# ======================
+# Node / React (Vite)
+# ======================
+node_modules/
+dist/
+.vite/
+
+
+# ======================
+# Env files
+# ======================
+.env
+.env.*
+
+
+# ======================
+# Logs
+# ======================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ======================
+# OS / Editor junk
+# ======================
+.DS_Store
+Thumbs.db
+
+
+# ======================
+# Build / temp files
+# ======================
+coverage/
+.cache/
+.tmp/
+
+
+# ======================
+# AWS / credentials safety (optional but recommended)
+# ======================
+.aws/
+
+
+# ======================
+# Custom (your setup scripts)
+# ======================
+utils/setup/
